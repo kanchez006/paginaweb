@@ -26,8 +26,8 @@ h1{
     /*secion hero*/
 #logo{
     width: 150px;
-    border-radius: 50%;
-    margin: 10px;
+    box-shadow: 5px 10px; 
+    margin: 12px;
 }
 .hero{
     background-color: #f5f6f7;
