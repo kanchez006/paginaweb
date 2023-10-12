@@ -26,8 +26,8 @@ h1{
     /*secion hero*/
 #logo{
     width: 150px;
-    border-radius: 50%;
-    margin: 10px;
+    box-shadow: 5px 10px; 
+    margin: 12px;
 }
 .hero{
     background-color: #f5f6f7;
@@ -78,11 +78,7 @@ h1{
     color: black;
     background-color: white;
 }
-.experiencia .row div{
-    height: 250px;
-    background-color:coral;
-    border: 3px solid orange;
-}
+
 .expTitulo{
     font-size: 25px;
     font-weight:bold;
@@ -98,6 +94,69 @@ h1{
 .img {
     width: 70px;
 }
+
+.badges-contenedor{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.badge{
+    margin: 5px;
+}
+.experiencia .columna{
+    padding: 20px;
+    height: 275px;
+    border: 2px solid #8080804d;
+}
+.experiencia .columna:hover{
+    background-color: black;
+    color: white;
+}
+/*seccion Proyectos*/
+.proyectos-recientes h2{
+    font-size: 2.5rem;
+    font-family: 'Black Ops One', cursive;
+}
+.proyectos-recientes img{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+}
+.proyecto-contenedor{
+    padding-top:60px;
+    margin-bottom: 40px;
+}
+.overlay{ 
+    transition: 0.2s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.proyecto{
+    position: relative;
+}
+
+.overlay p{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.proyecto:hover img{
+    opacity: 0.2;
+}
+
+
+.proyecto:hover .overlay{
+    opacity: 1;
+}
+
 
     /*seccion resposiva*/
 @media screen and (max-width: 767px) {
