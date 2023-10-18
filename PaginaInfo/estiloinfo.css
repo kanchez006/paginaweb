@@ -79,7 +79,7 @@ h1{
 }
 .seccionOscura{
     color: white;
-    background-color:#1b1b32 ;
+    background-color:#96989a;
 }
 
 /*Seccion sobre nostros*/
@@ -91,6 +91,11 @@ h1{
 .contenedor{
     max-width: 800px;
     text-align: center;
+}
+
+.seccionTexto{
+    font-size: 20px;
+    font-weight: bold;
 }
 /*Seccion experiencia*/
 .experiencia{
@@ -132,7 +137,7 @@ h1{
     border: 2px solid #8080804d;
 }
 .experiencia .columna:hover{
-    background-color: black;
+    background-color: #96989a;
     color: white;
 }
 /*seccion Proyectos*/
